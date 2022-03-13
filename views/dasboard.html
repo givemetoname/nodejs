@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scal e=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="edit dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="card m-auto" style="width: 18rem;">
+    <div class="card-body">
+      <div class="container">
+        <label>chọn một tỉnh/TP</label>
+        <select id="movie" class="form-select" aria-label="Default select example">
+          <option selected value="29,30,31,32,33,40">Hà Nội</option>
+          <option value="20">Thái Nguyên</option>
+          <option value="19">Phú Thọ</option>
+          <option value="98">Bắc Giang</option>
+          <option value="28">Hòa bình</option>
+          <option value="99">Bắc Ninh</option>
+          <option value="90">Hà Nam</option>
+          <option value="34">Hải Dương</option>
+          <option value="89">Hưng Yên</option>
+          <option value="88">Vĩnh Phúc</option>
+          <option value="14">Quảng Ninh</option>
+          <option value="15, 16">Hải Phòng</option>
+          <option value="18">Nam Định</option>
+          <option value="35">Ninh Bình</option>
+          <option value="17">Thái Bình</option>
+          <option value="23">Hà Giang</option>
+          <option value="11">Cao Bằng</option>
+          <option value="24">Lào Cai</option>
+          <option value="97">Bắc Cạn</option>
+          <option value="12">Lạng Sơn</option>
+          <option value="22">Tuyên Quang</option>
+          <option value="21">Yên Bái</option>
+          <option value="27">Điện Biên</option>
+          <option value="25">Lai Châu</option>
+          <option value="26">Sơn La</option>
+          <option value="36">Thanh Hóa</option>
+          <option value="37">Nghệ An</option>
+          <option value="38">Hà Tĩnh</option>
+          <option value="73">Quảng Bình</option>
+          <option value="74">Quảng Trị</option>
+          <option value="75">Thừa Thiên Huế</option>
+          <option value="43">Đà Nẵng</option>
+          <option value="92">Quảng Nam</option>
+          <option value="76">Quảng Ngãi</option>
+          <option value="77">Bình Định</option>
+          <option value="78">Phú Yên</option>
+          <option value="79">Khánh Hòa</option>
+          <option value="85">Ninh Thuận</option>
+          <option value="86">Bình Thuận</option>
+          <option value="82">Kon Tum</option>
+          <option value="81">Gia Lai</option>
+          <option value="47">Dak Lak</option>
+          <option value="48">Đắc Nông</option>
+          <option value="49">Lâm Đồng</option>
+          <option value="41,50,51,52,53,54,55,56,57,58,59">Hồ Chí Minh</option>
+          <option value="93">Bình Phước</option>
+          <option value="61">Bình Dương</option>
+          <option value="38,60">Đồng Nai</option>
+          <option value="70">Tây Ninh</option>
+          <option value="72">Bà Rịa Vũng Tàu</option>
+          <option value="65">Cần Thơ</option>
+          <option value="62">Long An</option>
+          <option value="66">Đồng Tháp</option>
+          <option value="63">Tiền Giang</option>
+          <option value="67">An Giang</option>
+          <option value="71">Bến Tre</option>
+          <option value="64">Vĩnh Long</option>
+          <option value="95">Hậu Giang</option>
+          <option value="68">Kiên Giang</option>
+          <option value="83">Sóc Trăng</option>
+          <option value="94">Bạc Liêu</option>
+          <option value="69">Cà Mau</option>
+        </select>
+
+      <h5 class="card-title my-3"> Mã Số Tỉnh: <div class="sotinh">
+          
+      </div></h5>
+    </div>
+  </div>
+
+ 
+
+   
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+
+<script src="vietnam.js"></script>
+
+</html>
